@@ -1,0 +1,287 @@
+html,
+body,
+.main-wrapper,
+.col {
+  height: 100%;
+}
+
+.col {
+  display: inline-block;
+  margin-right: -5px;
+  vertical-align: top;
+}
+
+
+#header_wrapper {
+    border-bottom: 3em solid #f2f2f2;
+}
+
+#breadcrumbs {
+    margin-left: -15.15em;
+    margin-bottom: 0.4em;
+    margin-top: -9.6em;
+}
+
+.bc_last a:hover {
+    text-decoration: underline;
+}
+
+.hero-img {
+    width: 100%;
+    margin-bottom: 7em;
+    margin-top: -21.7em;
+}
+
+h1.pg_title {
+    font-size: 2.2em;
+    padding-left: 2.9%;
+    width: 126.92%;
+    padding-bottom: 0.1%;
+    margin-top: 8.5em;
+    margin-left: -1.13em;
+    margin-bottom: 4.4%;
+    border-bottom: none; 
+}
+
+#csm-menu {
+    margin-top: -5.12em;
+}
+
+h4.intro-tagline {
+    text-transform: lowercase;
+    font-size: 1.2em;
+    margin-top: -2.1em;
+    margin-bottom: .85em;
+}
+
+.center-column {
+    margin-top: 0;
+}
+
+.testimonial-container {
+    background-color: #F1EFE8;
+    padding: 4%;
+}
+
+.testimonal {
+}
+
+.side-column {
+    height: 74.5em;
+    background-color: transparent;
+}
+
+.explore-grid-container {
+    margin-top: 4%;
+}
+
+.explore-grid-properties {
+    height: 15em;
+    width: 33.333%;
+}
+
+/*
+.explore-grid-hover-link div {
+    position: relative;
+    width: 17%;
+    height: 170px;
+    overflow: hidden;
+}
+*/
+.explore-grid-hover-link div {
+height: 138px;
+overflow: hidden;
+position: relative;
+width: 86%;
+/*
+margin-left: auto;
+margin-right: auto;
+*/
+}
+
+.hover-color1 {
+  background: steelblue;
+}
+
+.hover-color2 {
+  background: olive;
+}
+
+.hover-color3 {
+  background: purple;
+}
+
+.explore-grid-hover-link h2 {
+    font-size: 1.5em;
+letter-spacing: 0.015em;
+    bottom: -107px;
+/*left: 10px;*/
+    left: .43em;
+    color: #FFF;
+/*    text-transform: lowercase;
+*/  position: absolute;
+/*    bottom: -107px;*/
+    bottom: -513%;
+left: 11px;
+    z-index: 1;
+    text-shadow: 0px 0px 10px #000;
+    padding: 0px 0.5em 0.3333em !important;
+  font-weight: 700;
+    white-space: nowrap;
+}
+
+.explore-grid-hover-link a:hover h2, .explore-grid-hover-link a:focus h2 {
+    text-shadow: none;
+}
+
+.explore-grid-hover-link a:hover img, .explore-grid-hover-link a:focus img {
+    opacity: 0;
+}
+
+.explore-grid-hover-link div a:hover > div.hover-link-text a:hover {
+    text-decoration: underline;
+}
+
+.explore-grid-hover-link img {
+position: absolute;
+opacity: 1;
+transition: opacity 0.3s ease-in-out 0s;
+max-width: none;
+margin-left: -2em;
+}
+
+.hover-link-text {
+    padding-top: 4%;
+}
+
+.hover-link-text a {
+    font-size: 1em;
+    color: #292929;
+    line-height: 1.5;
+    text-decoration: none;
+}
+
+.hover-link-text a:hover {
+    text-decoration: underline;
+}
+
+
+.explore-grid-left {
+    margin-left: 0;
+    
+}
+
+.explore-grid-middle {
+    margin-left: auto;
+margin-right: auto;
+}
+
+.explore-grid-right {
+margin-left: 2.93em;
+}
+
+.tribeta-grid-image {
+margin-top: 5em;
+}
+
+.biology-club-grid-image {
+
+}
+
+.about-grid-image {
+
+}
+
+
+/*
+.end-image-container {
+    background-color: tomato;
+    
+
+}
+*/
+
+.end-end-image {
+    background-color: tomato;
+    margin: 9%;
+    height: 51%;
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+opacity: 1;
+transition: background-color 0.3s ease-in-out 0s;
+}
+
+.each-end-image {
+}
+
+.each-end-image:hover > .fill-steelblue {
+    background-color: steelblue;
+    background-image: none;
+}
+
+.biology-club-link {
+    background-image: url(http://www.ngu.edu/myimages/ngu-hero-biology-club.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 1;
+}
+
+.biology-club-link:hover {
+/*    background-color: steelblue;*/
+}
+
+.each-end-title {
+    font-size: 1.3em;
+    color: #FFF;
+    padding-left: 5.5%;
+    padding-top: 3.3em;
+    font-weight: 700;
+    text-shadow: 0px 0px 10px #000;
+}
+
+#callout_wrapper {
+    height: 22.4em;
+background-color: #F2F2F2;
+margin-top: -19.4em;
+}
+
+.right-column-content ul {
+    padding-right: 0;
+    padding-left: 1.8em;
+    width: 90%;
+}
+
+.right-column-content ul li:first-child {
+    margin-top: -13%;
+}
+
+.apply-button {
+    background-color: #A40A00;
+    float: right;
+    height: 3.6em;
+    width: 90%;
+    margin-top: -6%;
+}
+
+.apply p {
+/*margin-top: .965em;*/
+    margin-top: 5.9%;
+}
+
+.apply span a {
+    color: #FFF;
+    margin-left: 1em;
+    font-size: 1.28em;
+    font-weight: 400;
+}
+
+.apply-button:hover {
+    text-decoration: underline;
+    background-color: #8A0001;
+}
+
+.content-container {
+    background-color: transparent;
+}
